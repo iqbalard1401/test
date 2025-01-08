@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Form Data</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width ,initial-scale=1">
+<link rel="stylesheet" href="form.css"  >
+
+</head>
+
+
+<body>
+        <div class="navbar">
+                <a href="tentang.html" class="geser">Tentang</a>
+								<div class="dropdown">
+								<a href="#news"><span>Produk</span></a>
+								<div class="dropdown-content">
+									<a href="running.html" class="posisidropdown1">Running</a>
+									<a href="football.html" class="posisidropdown2">Football</a>
+								</div>
+							</div>
+								<a href="beranda.html">Beranda</a>
+                <img src="logo.png" alt="" >
+        </div>
+<section>	
+  <article class="artikel2">
+	<h1>HARAP MENGISI DATA DENGAN VALID</h1>
+<center>
+<form name="signup" id="signup" method="post" action="#">
+			<table>
+				<tr>
+					<td class="labelcell">Nama</td>
+					<td><input type="fieldcell" type="text" name="nama" size="40" value="Iqbal ardiansyah" siplaceholder="nama" required>
+          </td>
+				</tr>
+				<tr>
+					<td class="labelcell">Ukuran</td>
+					<td class="smallfieldcell">
+						<select name="prodi">
+							<option></option>
+							<option>37</option>
+							<option>38</option>							
+							<option>39</option>							
+							<option>40</option>							
+							<option>41</option>							
+							<option>42</option>							
+							<option>43</option>							
+							<option>44</option>							
+						</select>
+					</td>
+				</tr>	
+				<tr>
+					<td class="labelcell">Alamat</td>
+					<td><input type="fieldcell" type="text" name="alamat" size="40" value="jl.Peninggaran" siplaceholder="alamat" required></td>
+				</tr>				
+				<tr>
+					<td class="labelcell">Nomor Telepon</td>
+					<td><input type="fieldcell" type="text" name="telepon" size="40"value="0812345678"Nomor telepon" required></td>
+				</tr>
+				<tr>
+					<td class="labelcell">E-mail</td>
+					<td><input type="fieldcell" type="text" name="email" size="40" value="iqbalardiansyah1401gmail" siplaceholder="e-mail" required></td>
+				</tr>
+				
+				<tr>
+					<td colspan="2"><button><a href="konfirmasi.html">PESAN</a></button></td>				
+				</tr>
+			</table>
+</form>
+</center>
+</div>
+  </article>
+</section>
+
+<footer>
+  <p>UNIVERSITAS PAMULANG (IQBAL ARDIANSYAH)</p>
+</footer>
+<style>
+body {
+  font-family: Century Gothic;
+}
+  * {
+    box-sizing: border-box;
+}
+
+html {
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(img/header/store.jpg);
+height: 500px;
+background-size: cover;
+background-position: center;
+}
+
+header h1 {
+  position: absolute;
+	top: 28%;
+	left: 43%;
+  color: white;
+  font-size: 48pt;
+ }  
+
+
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .navbar span {
+    color: rgb(240, 156, 156);
+  }
+ 
+  .navbar a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: normal;
+  }
+  
+  .navbar a:hover {
+    color: rgb(240, 156, 156); 
+  }
+
+  .dropdown:hover {
+height: 150px;
+  }
+
+  .dropdown {
+    float: right;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+  float: right;
+    display: none;
+    position: absolute;
+    background-color:  white;
+    margin-top: 50px;
+    margin-left: -1137px;
+    width: 1500px;
+    height: 150px;
+    z-index: 1;
+    color: white;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    float: left;
+  }
+  
+  
+  
+.posisidropdown1{
+    position: absolute;
+    top: 16%;
+    left: 39%;
+}
+
+.posisidropdown2{
+  position: absolute;
+  top: 16%;
+  left: 47%;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.geser {
+  margin-right: 52px;
+}
+
+.navbar img{
+  width: 70px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 45px;
+}
+
+
+.besar {
+  width: 1349px;
+  margin-top: 20px;
+  margin-left: -30px;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.navbar a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 13px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.artikel2 p {
+  text-align: center;
+  width: auto;
+  
+}
+
+.artikel2 h2 {
+  margin-left: auto;
+}
+
+.artikel2 {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #F7F5F6;
+  font-size: 12pt;
+  height: 597px; 
+}
+
+.artikel2  p , h2 { 
+position: relative;
+margin-left: 50px;
+}
+
+.artikel2 h1 {
+	margin-top: 150px;
+	font-size: 25pt;
+	text-align:center;
+}
+
+.labelcell {
+	font: 20px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #000;
+	background-color: transparent;
+	width: 220px;
+	height: 30px;
+	}
+			
+.fieldcell {
+	background-color: #fff;
+	color: #000000;
+	text-align: left;
+	margin-right: 0px;
+	padding-right: 0px;
+	font-size:15px;
+}
+
+button {
+	background-color:#6ab04c;
+	border-radius:10px;
+	padding:5px 10px;
+	float: right;
+	}
+
+button a {
+	text-decoration:none;
+	color: #000;
+	font-weight:bold;
+}
+
+footer {
+  background-color: black;
+  padding: 10px;
+  height: 60px;
+  text-align: center;
+  color: white;
+  font-size: 12pt;
+}
+
+footer p {
+  margin-top: 8px;
+}
+
+/* Responsive di hp */
+@media (max-width: 600px) {
+ img{
+     width: 100%;
+    height: auto;
+  }
+ 
+  header {
+    background-color: red;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    height: 430px;
+  }
+
+  .navbar a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 13px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  .navbar img{
+    width: 50px;
+    height: 22px;
+    margin-top: 13px;
+    margin-left: 20px;
+  }
+
+  .geser {
+    margin-right: 5px;
+  }
+
+  .back{
+    position: absolute;
+    top: 1%;
+    left: 35%;
+    font-size: 20pt;
+  }
+
+  header h1 {
+    position: absolute;
+    top: 27%;
+    left : 23%;
+    font-size: 35pt;
+  }
+  .besar {
+    width: 1349px;
+    margin-top: -69px;
+    margin-left: -450px;
+  
+  }
+
+.responsiveatas { 
+  position: absolute;
+  left: 30%;
+}
+  
+.posisidropdown1{
+  position: absolute;
+  top: 16%;
+  left: 69%;
+}
+
+.posisidropdown2{
+position: absolute;
+top: 16%;
+left: 77%;
+}
+
+.artikel2 {
+	height:642px;
+}
+
+.artikel2 p, h2 {
+  margin-left: 0px;
+}
+
+.artikel2 h1 {
+	font-size:15pt;
+}
+
+.labelcell {
+	font: 13px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #000;
+	background-color: transparent;
+	width: 220px;
+	height: 30px;
+	}
+			
+.fieldcell {
+	background-color: #fff;
+	color: #000000;
+	text-align: left;
+	margin-right: 0px;
+	padding-right: 0px;
+	font-size:13px;
+}
+
+  .atas{
+    margin-top: 30px;
+    }
+
+
+  footer {
+    background-color: black;
+    padding: 10px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 10pt;
+  }
+}
+</style>
+
+</body>
+</html>
